@@ -1,0 +1,106 @@
+﻿  <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" >
+		<title>TGIF 이벤트 페이지</title> <!-- 완성된 이미지를 보고 알맞은 타이틀을 입력 -->
+		<link rel="stylesheet" type="text/css" href="css/reset2.css"> <!-- reset.css 파일 제작 -->
+		<style>
+			*{margin:0px; padding:0px;}
+			ul li{list-style-type:none;}
+			img,fieldset{border:0;}
+
+			#wrapper {background:url(images/bg.jpg) ; width:600px; height:500px; margin:60px auto; border:1px solid black;}
+
+			#main{margin:15px 15px; width:570px; height:470px;
+				background:linear-gradient(to bottom, blue,skyblue);
+				position:relative; border-radius:10px 10px 10px 10px;
+				 }
+
+			#inner{background:url(images/two_line.png); width:570px; height:470px;}
+
+			#header{}
+			h1 {background: url(images/logo.png) no-repeat;
+			position: absolute;
+			top: 40px;
+			left: 40px;
+			width: 130px;
+			height: 90px;
+			text-indent: -9999px;}
+
+			h2{color:white;margin-left:190px;padding-top:70px; font-size:28px;
+				text-shadow: 3px 3px 3px  rgba(0,0,0,1);}
+
+			.grandOpen
+			{background:url(images/open.png) no-repeat;
+			position:absolute;
+			top:140px;
+			left:20px;
+			width:534px;
+			height:72px;}
+				.one{position:absolute; left:-17px; top:-10px;}
+				.two{position:absolute; right:-10px; bottom:-15px;}
+				.three{position:absolute; right:195px; top:-10px;}
+
+			div
+			#content{ width: 500px; height: 200px;
+							  position: absolute;
+							  top: 240px; 
+							  left: 35px;
+							  background-color:#15ded4; 
+							  border-radius: 20px}
+
+			.whiteBox{background-color:white; height:180px; width:480px;
+			border-radius:10px;
+			position:relative; top:10px; left:10px;
+			}
+
+			.doubleImages{display:inline-block; width:480px; height:200px;
+			background:url(images/dish.png) no-repeat 220px -35px,
+			url(images/dish_shadow.png) no-repeat 205px -35px;
+			background-size:350px 220px;border-radius:10px;}
+
+			#content h3{color:red; padding-top:15px; padding-left:20px;line-height:200%;}
+			#content ul.list{line-height:200%; font-size:15px; padding-left:15px; text-indent:2em;}
+			#content ul li{background:url(images/heart.png) no-repeat left center; margin-left:10px;}
+			h3{font-size:20px;}
+			p{background:url(images/button.png) no-repeat; width:180px; height:33px; margin-left:25px;margin-top:13px;}
+			p a{text-decoration:none; color:black; font-weight:bold; font-size:16px;
+			text-align:center; line-height:33px;padding-left:13px;}
+
+			.mojip;
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="main">
+				<div id="inner">
+					<div id="header">
+						<h1>로고 이미지</h1>
+						<h2>화곡점 2025년 10월 14일</h2> <!-- '화곡점' 옆에 오늘 날짜를 삽입 -->
+						<div class="grandOpen">
+							<img src=""> <!-- grand open 이미지 삽입 -->
+							<span class="one"><img src="images/shine.png"></span> <!-- shine 이미지 삽입 -->
+							<span class="two"><img src="images/shine.png"></span> <!-- shine 이미지 삽입 -->
+							<span class="three"><img src="images/shine.png"></span> <!-- shine 이미지 삽입 -->
+						</div>
+					</div><!-- main inner header 끝 -->
+
+					<div id="content">
+						<div class="whiteBox">
+							<div class="doubleImages">
+								<h3>TGIF에서 함께 할 직원을 모집합니다.</h3>
+								<ul class="list">
+									<li>모집기간 : 2025년 10월 14일~상시채용</li>
+									<li>문의전화 : 02)6958-5870 / FAX : 02)2039-7362</li>
+								</ul>
+								<p><a href="mojip.html" target="_blank" class="mojip">입사지원서 작성하기</a></p> <!-- mojip.html을 새로운 창에 나타날 수 있게 삽입 -->
+								</div>
+							</div>
+						</div>
+						</div>
+					</div><!-- main inner content 끝 -->
+				</div><!-- main inner 끝 -->
+			</div><!-- main 끝 -->
+		</div><!-- wrapper 끝 -->
+	</body>
+</html>
